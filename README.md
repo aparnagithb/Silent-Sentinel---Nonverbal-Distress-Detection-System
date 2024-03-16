@@ -5,8 +5,8 @@
     ⭐️Taking Back Control, One Signal at a Time  ⭐️ <br>
 </h1>
 
- [`Demo video link `](https://youtu.be/t9vbOHfHoAM) 
-mention the description here , mention what does your prototype does  , make sure that demo video also has narration made by the team members and shows the entire walkthrough of the project , for hardware projects , images , working video and code are required
+ [`[Demo video link](https://youtu.be/t9vbOHfHoAM) `]
+Silent Guardian: A lifesaver for the voiceless. Uses cameras to detect silent cries for help through sign language, sending immediate alerts for those in danger.
 ## Team Details
 `Team number` : VH204
 
