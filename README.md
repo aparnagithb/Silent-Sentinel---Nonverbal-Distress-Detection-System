@@ -5,8 +5,8 @@
     ⭐️Taking Back Control, One Signal at a Time  ⭐️ <br>
 </h1>
 
- [`[Demo video link](https://youtu.be/t9vbOHfHoAM) `]
-Silent Guardian: A lifesaver for the voiceless. Uses cameras to detect silent cries for help through sign language, sending immediate alerts for those in danger.
+ [`[Demo video link]`](https://youtu.be/t9vbOHfHoAM) 
+ A lifesaver for the voiceless. Uses cameras to detect silent cries for help through sign language, sending immediate alerts for those in danger.
 ## Team Details
 `Team number` : VH204
 
