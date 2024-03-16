@@ -10,11 +10,13 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load the hand sign model
-hand_classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
+hand_classifier = Classifier("Model1/keras_model.h5", "Model1/labels.txt")
 
 # Load the emotion detection model
 emotion_model = load_model("Model2/keras_model.h5")
 emotion_labels = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
+
+# Load the gender detection model
 gender_model = load_model("Model3/keras_model.h5")
 
 
@@ -29,7 +31,7 @@ cap = cv2.VideoCapture(0)
 overlay_width = 437 - 19
 overlay_height = 406 - 88
 
-imgBackground = cv2.imread('Data/ssbg.png')
+imgBackground = cv2.imread('Custom_HandSign_DataSet/ssbg.png')
 
 # Set parameters for hand sign detection
 offset = 20
@@ -87,7 +89,7 @@ while True:
             cv2.rectangle(imgOutput, (x - offset, y - offset),
                           (x + w + offset, y + h + offset), (255, 0, 255), 4)
 
-    # Face detection
+
     # Face detection
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray_img = cv2.cvtColor(gray_img, cv2.COLOR_GRAY2RGB)  # Convert grayscale to RGB
@@ -101,6 +103,7 @@ while True:
         img_pixels = roi_gray.astype('float32') / 255.0
         img_pixels = np.expand_dims(img_pixels, axis=0)
 
+        #Emotion detection
         predictions = emotion_model.predict(img_pixels)
         max_index = np.argmax(predictions[0])
         predicted_emotion = emotion_labels[max_index]
@@ -114,7 +117,7 @@ while True:
         face_roi = face_roi / 255.0
 
         gender_prediction = gender_model.predict(face_roi)
-        gender_label = 'Female' if gender_prediction[0][0] > 0.5 else 'Male'
+        gender_label = 'Male' if gender_prediction[0][0] > 0.5 else 'Female'
         cv2.putText(imgOutput, gender_label, (int(x), int(y) + h + 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
         # Overlay imgOutput onto imgBackground
