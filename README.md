@@ -63,15 +63,12 @@ Alert System and User Interface:
 - Send the alert to designated responders (e.g., local police station) with relevant information (camera location, time, potential emergency type based on the sign).
 - Develop a user interface (dashboard) to visualize camera feeds, detected signs, and any triggered alerts.
 ## Techstacks used 
-![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/164c4b5f-06ad-4ce8-8159-e4622216eb77)
- OpenCV, cvzone
- ![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/f69cfa70-4ddf-43e4-872b-186bc03a4380)
-NumPy
-![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/60b64e0b-1349-4997-a0dc-72f1d0b42374)
-TensorFlow/Keras
-![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/167e2f3b-3cca-4aff-a510-442f7c66b350)
-MediaPipe 
-Teachable Machine (by google)
+![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/164c4b5f-06ad-4ce8-8159-e4622216eb77)1.OpenCV, cvzone
+ ![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/f69cfa70-4ddf-43e4-872b-186bc03a4380)2.NumPy
+![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/60b64e0b-1349-4997-a0dc-72f1d0b42374)3.TensorFlow/Keras
+![image](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/167e2f3b-3cca-4aff-a510-442f7c66b350)4.MediaPipe 
+
+5.Teachable Machine (by google)
 
 ## How to run locally 
 1.Create a virtual environment to isolate project dependencies and avoid conflicts. Tools like venv or conda can be used.
