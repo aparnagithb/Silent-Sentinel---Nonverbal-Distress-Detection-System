@@ -43,7 +43,7 @@ Target Scenarios:
  ![WhatsApp Image 2024-03-16 at 21 26 49_c38c0417](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/a0c98407-3c8c-4e32-a06e-2acba0d5280a)
 
 Data Collection and Preprocessing:
-- Developed a custom dataset of emergency signs with 10 signs of over 2000 images totally in Indian Sign Language and other relevant sign languages.
+- Developed a custom dataset of emergency signs with 10 signs of over 2000 images totally in Indian Sign Language , hand symbols issued at Canadian Woman Foundation for times of distress and other relevant sign languages.
 - Utilized existing datasets for gender and emotion recognition from Kaggle and Github.
 - Preprocessed all data by resizing (maintaining aspect ratio), cropping the region of interest (ROI), and converting to grayscale.
 
