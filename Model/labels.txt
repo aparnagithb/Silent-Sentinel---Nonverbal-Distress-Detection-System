@@ -1,0 +1,10 @@
+0 I'm in Danger
+1 Signal for help 
+2 Call Police
+3 Call Ambulence
+4 Visit My Home
+5 Call me 
+6 Losing
+7 I am in pain
+8 I am okay
+9 Thief
