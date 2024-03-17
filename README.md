@@ -78,6 +78,7 @@ Alert System and User Interface:
 5.Execute the main script using Python: python test.py
 
 
+![ALERTS (1)](https://github.com/aparnagithb/Silent-Sentinel---Nonverbal-Distress-Detection-System/assets/119504238/72e7717a-7572-4b5a-8b2d-e277e6a7b7b1)
 
 # What's next ?
 Our Silent Guardian project has a lot of potential to expand its capabilities and impact in the future.
