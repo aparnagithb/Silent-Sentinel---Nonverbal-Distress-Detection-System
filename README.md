@@ -8,7 +8,6 @@
  [`[Demo video link]`](https://youtu.be/t9vbOHfHoAM) 
  A lifesaver for the voiceless. Uses cameras to detect silent cries for help through sign language, sending immediate alerts for those in danger.
 ## Team Details
-`Team number` : VH204
 
 | Name                  | Email                    |
 |-----------------------|--------------------------|
@@ -88,5 +87,4 @@ Our Silent Guardian project has a lot of potential to expand its capabilities an
 - Contextual Awareness: Implement machine learning algorithms to analyze contextual information, such as the location, time of day, and repeating user behavior patterns, to provide more accurate results .
 - - Enhance the system to cater to different sign languages such as American Sign Language (ASL), French Sign Language (LSF), and Indian Sign Language (ISL)
 
-## Declaration
-We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
+
